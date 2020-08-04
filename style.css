@@ -2,6 +2,32 @@ body
 {
 	font-family: Cambria;
 	font-size: 14;
+	margin: 2%;
+
+}
+
+a
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: pink
+}
+
+hr
+{
+	margin-top: 20;
+	margin-bottom: 0;
+}
+
+ul
+{
+	margin-top: 0;
 }
 
 .pageTitle
@@ -14,15 +40,48 @@ body
 	margin-bottom: 0;
 }
 
-.jobTitle
+.resume
 {
-	font-size: 25;
-	margin-bottom: 6;
+	max-width: 700;
 }
 
-.jobDescription
+.resume_left
+{
+	width: 220;
+  	height: 380px;
+  	float: left;
+}
+
+.resume_right
+{
+	margin-left: 15%;
+  	height: 380px;
+}
+
+.resumeTitle
+{
+	font-size: 22;
+	margin-bottom: 6;
+	margin-top:10;
+}
+
+.resumeDate
+{
+	text-align: right;
+	float: right;
+	font-size: 14;
+	font-style: italic;
+	color:grey;
+}
+
+.resumeDescription
 {
 	font-size: 14;
-	margin-bottom: 10;
+	text-align: justify;
 }
 
+.resumePad
+{
+	/*margin-top: 5;*/
+	font-size: 1;
+}

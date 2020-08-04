@@ -1,0 +1,28 @@
+body 
+{
+	font-family: Cambria;
+	font-size: 14;
+}
+
+.pageTitle
+{
+	color: black;
+	text-align: left;
+	font-size: 40;
+	font-family: Times;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+.jobTitle
+{
+	font-size: 25;
+	margin-bottom: 6;
+}
+
+.jobDescription
+{
+	font-size: 14;
+	margin-bottom: 10;
+}
+

@@ -3,6 +3,7 @@ body
 	font-family: Cambria;
 	font-size: 14;
 	margin: 2%;
+	max-width: 700;
 }
 
 a
@@ -29,6 +30,11 @@ ul
 	margin-top: 0;
 }
 
+.logoBox
+{
+	/*float: left;*/
+}
+
 .pageTitle
 {
 	color: black;
@@ -39,9 +45,49 @@ ul
 	margin-bottom: 0;
 }
 
-.resume
+.socialLinks
 {
-	max-width: 700;
+	position: absolute;
+	left: 675;
+	top: 40;
+	height: 30;
+}
+
+.headerTab
+{
+	position: absolute;
+	left: 505;
+	top: 75;
+	height: 30;
+	overflow: hidden;
+ 	border: 1px solid #ccc;
+  	background-color: #f1f1f1;
+}
+
+.headerTab button {
+	background-color: inherit;
+	vertical-align: middle;
+
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 9px 16px;
+}
+
+/* Change background color of buttons on hover */
+.headerTab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.headerTab button.active {
+  background-color: #ccc;
+}
+
+.tabContent
+{
+	
 }
 
 .resume_left

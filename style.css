@@ -44,8 +44,8 @@
 
 body 
 {
-	font-family: Cambria;
-	font-size: 14;
+	font-family: Verdana;
+	font-size: 13;
 	margin: 20;
 	width: 700;
 }
@@ -76,7 +76,7 @@ ul
 
 .logoBox
 {
-	/*float: left;*/
+	font-family: Cambria;
 }
 
 .pageTitle
@@ -89,7 +89,8 @@ ul
 	margin-bottom: 0;
 }
 
-.headerTab button {
+.headerTab button 
+{
 	background-color: inherit;
 	vertical-align: middle;
 
@@ -100,13 +101,13 @@ ul
 	padding: 9px 16px;
 }
 
-/* Change background color of buttons on hover */
-.headerTab button:hover {
+.headerTab button:hover 
+{
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
-.headerTab button.active {
+.headerTab button.active 
+{
   background-color: #ccc;
 }
 
@@ -124,29 +125,37 @@ ul
 
 .resume_right
 {
-  	height: 380px;
+  	height: 390px;
 }
 
 .contentTitle
 {
-	font-size: 22;
+	font-size: 24;
 	margin-bottom: 6;
 	margin-top:10;
+	font-family: FF Scala;
+	font-weight: 500;
 }
 
 .contentDate
 {
 	text-align: right;
 	float: right;
-	font-size: 14;
+	font-size: 12;
 	font-style: italic;
 	color:grey;
+	font-family: Verdana;
+	font-weight: normal;
 }
 
-.contentDescription
+.contentDescriptionJustify
 {
-	font-size: 14;
 	text-align: justify;
+}
+
+.contentDescriptionLeft
+{
+	text-align: left;
 }
 
 .contentVideo
@@ -155,7 +164,6 @@ ul
 
 .contentImage
 {
-
 }
 
 .contentPad

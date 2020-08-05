@@ -1,3 +1,47 @@
+@media only screen and (min-width: 741px)
+{
+	.socialLinks
+	{
+		position: absolute;
+		left: 667;
+		top: 30;
+		height: 30;
+	}
+
+	.headerTab
+	{
+		position: absolute;
+		left: 497;
+		top: 65;
+		height: 30;
+		overflow: hidden;
+	 	border: 1px solid #ccc;
+	  	background-color: #f1f1f1;
+	}
+}
+
+@media only screen and (max-width: 740px)
+{
+	.socialLinks
+	{
+		position: absolute;
+		right: 20;
+		top: 30;
+		height: 30;
+	}
+
+	.headerTab
+	{
+		position: absolute;
+		right: 20;
+		top: 65;
+		height: 30;
+		overflow: hidden;
+	 	border: 1px solid #ccc;
+	  	background-color: #f1f1f1;
+	}
+}
+
 body 
 {
 	font-family: Cambria;
@@ -45,25 +89,6 @@ ul
 	margin-bottom: 0;
 }
 
-.socialLinks
-{
-	position: absolute;
-	left: 667;
-	top: 40;
-	height: 30;
-}
-
-.headerTab
-{
-	position: absolute;
-	left: 497;
-	top: 75;
-	height: 30;
-	overflow: hidden;
- 	border: 1px solid #ccc;
-  	background-color: #f1f1f1;
-}
-
 .headerTab button {
 	background-color: inherit;
 	vertical-align: middle;
@@ -102,14 +127,14 @@ ul
   	height: 380px;
 }
 
-.resumeTitle
+.contentTitle
 {
 	font-size: 22;
 	margin-bottom: 6;
 	margin-top:10;
 }
 
-.resumeDate
+.contentDate
 {
 	text-align: right;
 	float: right;
@@ -118,35 +143,22 @@ ul
 	color:grey;
 }
 
-.resumeDescription
+.contentDescription
 {
 	font-size: 14;
 	text-align: justify;
 }
 
-.resumePad
+.contentVideo
+{
+}
+
+.contentImage
+{
+
+}
+
+.contentPad
 {
 	font-size: 1;
-}
-
-.blogTitle
-{
-	font-size: 22;
-	margin-bottom: 6;
-	margin-top:10;
-}
-
-.blogDescription
-{
-	font-size: 14;
-	text-align: justify;
-}
-
-.blogDate
-{
-	text-align: right;
-	float: right;
-	font-size: 14;
-	font-style: italic;
-	color:grey;
 }

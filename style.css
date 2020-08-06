@@ -37,7 +37,7 @@
 		height: 30;
 		overflow: hidden;
 	 	border: 1px solid #ccc;
-	  	background-color: #f1f1f1;
+	  	background-color: #fafafa;
 	}
 	.headerRight
 	{
@@ -115,12 +115,12 @@ ul
 
 .headerTab button:hover 
 {
-  background-color: #ddd;
+  background-color: #f2f2f2;
 }
 
 .headerTab button.active 
 {
-  background-color: #ccc;
+  background-color: #e6e6e6;
 }
 
 .tabContent

@@ -13,7 +13,7 @@
 // }
 
 function redirectPage(page){
-  window.parent.location.replace(page + ".html")
+  window.parent.location.replace(page)
 }
 
 function redirectParent(page){

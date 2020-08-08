@@ -171,3 +171,46 @@ ul
 {
 	left: 100px;
 }
+
+@media screen and (max-width: 700px) {
+.logoBox
+{
+	font-family: Cambria;
+	float: left;
+	padding-left: 10;
+}
+
+.contentTitle
+{
+	font-size: 24;
+	margin-bottom: 6;
+	margin-top:10;
+	font-family: FF Scala;
+	font-weight: 500;
+	padding-left: 10;
+}
+
+.contentDate
+{
+	text-align: right;
+	float: right;
+	right: 20;
+	font-size: 12;
+	font-style: italic;
+	color:grey;
+	font-family: Verdana;
+	font-weight: normal;
+}
+
+.contentDescriptionJustify
+{
+	text-align: justify;
+	padding-left: 20;
+}
+
+.contentDescriptionLeft
+{
+	text-align: left;
+	padding-left: 20;
+}
+}

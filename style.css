@@ -6,6 +6,7 @@
 html 
 {
 	scroll-behavior: smooth; 
+	zoom:100%;
 }
 
 .socialLinks
@@ -177,7 +178,6 @@ ul
 {
 	font-family: Cambria;
 	float: left;
-	padding-left: 10;
 }
 
 .contentTitle

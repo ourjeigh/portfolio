@@ -1,11 +1,11 @@
-::-webkit-scrollbar 
-{ 
-	display: none; 
+::-webkit-scrollbar
+{
+	display: none;
 }
 
-html 
+html
 {
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
 	zoom:100%;
 }
 
@@ -39,7 +39,7 @@ html
 	margin-top: 20;
 }
 
-body 
+body
 {
 	font-family: Verdana;
 	font-size: 13;
@@ -87,7 +87,7 @@ ul
 	margin-bottom: 0;
 }
 
-.headerTab button 
+.headerTab button
 {
 	background-color: inherit;
 	vertical-align: middle;
@@ -99,12 +99,12 @@ ul
 	padding: 9px 16px;
 }
 
-.headerTab button:hover 
+.headerTab button:hover
 {
   background-color: #f2f2f2;
 }
 
-.headerTab button.active 
+.headerTab button.active
 {
   background-color: #e6e6e6;
 }
@@ -117,13 +117,13 @@ ul
 .resume_left
 {
 	width: 220;
-  	height: 420px;
+  	height: 480px;
   	float: left;
 }
 
 .resume_right
 {
-  	height: 410px;
+  	height: 480px;
 }
 
 .contentTitle

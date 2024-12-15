@@ -133,6 +133,12 @@ li
   	height: 500px;
 }
 
+.resumeDescriptionJustify
+{
+	text-align: justify;
+	width:100%;
+}
+
 .contentTitle
 {
 	font-size: 24;
@@ -155,7 +161,7 @@ li
 
 .contentDescriptionJustify
 {
-	text-align: justify;
+	width:95%;
 }
 
 .contentDescriptionLeft
@@ -164,10 +170,6 @@ li
 }
 
 .contentVideo
-{
-}
-
-.contentImage
 {
 }
 
@@ -180,8 +182,6 @@ li
 {
 	left: 100px;
 }
-
-/* @media screen and (max-width: 700px) {} */
 
 .logoBox
 {

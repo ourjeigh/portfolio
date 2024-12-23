@@ -97,7 +97,6 @@ li
 {
 	background-color: inherit;
 	vertical-align: middle;
-
 	float: left;
 	border: none;
 	outline: none;
@@ -113,11 +112,6 @@ li
 .headerTab button.active
 {
   background-color: #e6e6e6;
-}
-
-.tabContent
-{
-
 }
 
 .resume_left
@@ -139,11 +133,69 @@ li
 	width:100%;
 }
 
+.miscBody
+{
+	font-family: Verdana;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.postContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.postLink {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+	width: 500;
+}
+
+.postImage
+{
+	object-fit: cover;
+}
+
+.postLink:hover {
+    color: pink;
+}
+
+.postLink img {
+    margin-right: 10px; 
+}
+
+.postContent {
+    margin-top: 10px;
+	width: 100%;
+    display: flex;
+}
+
+.textContainer {
+	position: inherit;
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+}
+
+.postTitle {
+	margin-bottom: 5px;
+	font-size: 24;
+	font-family: FF Scala;
+	font-weight: 500;
+	text-align: right;
+}
+
 .contentTitle
 {
 	font-size: 24;
 	margin-bottom: 6;
-	margin-top:10;
 	font-family: FF Scala;
 	font-weight: 500;
 }

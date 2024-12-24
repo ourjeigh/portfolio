@@ -1,24 +1,20 @@
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
 	display: none;
 }
 
-html
-{
+html {
 	scroll-behavior: smooth;
 	zoom:100%;
 }
 
-.socialLinks
-{
+.socialLinks {
 	padding-top: 12;
 	right: 0;
 	top: 30;
 	height: 30;
 }
 
-.headerTab
-{
+.headerTab {
 	top: 65;
 	float: right;
 	height: 30;
@@ -27,20 +23,17 @@ html
   	background-color: #f1f1f1;
 }
 
-.headerRight
-{
+.headerRight {
 	text-align: right;
 }
 
-.header
-{
+.header {
 	width: 700;
 	height: 65;
 	margin-top: 20;
 }
 
-body
-{
+body {
 	font-family: Verdana;
 	font-size: 13;
 	margin: auto;
@@ -48,43 +41,36 @@ body
 	width: 700;
 }
 
-a
-{
+a {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: black;
 	text-decoration: none;
 }
 
-a:hover
-{
+a:hover {
 	color: pink
 }
 
-hr
-{
+hr {
 	margin-bottom: 0;
 }
 
-ul
-{
+ul {
 	margin-top: 0;
 }
 
-li
-{
+li {
 	margin-left: -8;
 	text-align: left;
 }
 
-.logoBox
-{
+.logoBox {
 	font-family: Cambria;
 	float: left;
 }
 
-.pageTitle
-{
+.pageTitle {
 	color: black;
 	text-align: left;
 	font-size: 40;
@@ -93,8 +79,7 @@ li
 	margin-bottom: 0;
 }
 
-.headerTab button
-{
+.headerTab button {
 	background-color: inherit;
 	vertical-align: middle;
 	float: left;
@@ -104,37 +89,31 @@ li
 	padding: 9px 16px;
 }
 
-.headerTab button:hover
-{
+.headerTab button:hover {
   background-color: #f2f2f2;
 }
 
-.headerTab button.active
-{
+.headerTab button.active {
   background-color: #e6e6e6;
 }
 
-.resume_left
-{
+.resume_left {
 	width: 210;
 	margin-right: 10;
   	height: 580px;
   	float: left;
 }
 
-.resume_right
-{
+.resume_right {
   	height: 500px;
 }
 
-.resumeDescriptionJustify
-{
+.resumeDescriptionJustify {
 	text-align: justify;
 	width:100%;
 }
 
-.miscBody
-{
+.miscBody {
 	font-family: Verdana;
     font-size: 13px;
     margin: 0 auto;
@@ -158,8 +137,7 @@ li
 	width: 500;
 }
 
-.postImage
-{
+.postImage {
 	object-fit: cover;
 }
 
@@ -192,16 +170,22 @@ li
 	text-align: right;
 }
 
-.contentTitle
-{
+.contentTitle {
 	font-size: 24;
 	margin-bottom: 6;
 	font-family: FF Scala;
 	font-weight: 500;
 }
 
-.contentDate
-{
+.resumeBulletHeader {
+	font-size: 20;
+	margin-top: 10;
+	margin-bottom: 6;
+	font-family: FF Scala;
+	font-weight: 500;
+}
+
+.contentDate {
 	text-align: right;
 	float: right;
 	font-size: 12;
@@ -211,37 +195,28 @@ li
 	font-weight: normal;
 }
 
-.contentDescriptionJustify
-{
+.contentDescriptionJustify {
 	width:95%;
 }
 
-.contentDescriptionLeft
-{
+.contentDescriptionLeft {
 	text-align: left;
 }
 
-.contentVideo
-{
-}
-
-.contentPad
-{
+.contentPad {
 	font-size: 1;
 }
 
-.contentTweet
-{
+.contentTweet {
 	left: 100px;
 }
 
-.logoBox
-{
+.logoBox {
 	font-family: Cambria;
 	float: left;
 }
-.contentTitle
-{
+
+.contentTitle {
 	font-size: 24;
 	margin-bottom: 6;
 	margin-top:10;
@@ -250,8 +225,7 @@ li
 	padding-left: 10;
 }
 
-.contentDate
-{
+.contentDate {
 	text-align: right;
 	float: right;
 	right: 20;
@@ -262,14 +236,12 @@ li
 	font-weight: normal;
 }
 
-.contentDescriptionJustify
-{
+.contentDescriptionJustify {
 	text-align: justify;
 	padding-left: 20;
 }
 
-.contentDescriptionLeft
-{
+.contentDescriptionLeft {
 	text-align: left;
 	padding-left: 20;
 }

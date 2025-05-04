@@ -29,7 +29,6 @@
 		<br>
 		<br>
 		<img src="../images/projectorboxblog/projector_box_topdown.jpg" width="100%" class="postImage">
-		[Picture of box layout]
 		<br>
 		<br>
 		Instead of providing the vans with constant power and letting them run all the time, I only have them on when
@@ -41,6 +40,9 @@
 		projector lens — allows the Pi to determine when the projector is on and enable the fans. The Pi then turns the
 		fans off after the light has dipped below a threshold for about 5 minutes, just to make sure a dark scene in a
 		movie doesn’t cause the fans to turn off!
+		<br>
+		<br>
+		<img src="../images/projectorboxblog/light_sensor.jpg" width="50%" class="postImage">
 		<br>
 		<br>
 		With a Raspberry Pi in place, I thought it would make sense to add a temperature sensor to the box that could
@@ -61,9 +63,9 @@
 		<br>
 		<br>
 		As mentioned, after getting everything set up, I don’t often check on the Raspery Pi itself, since it’s locked
-		inside the box behind the projector, I have to SSH into it in order to access the script and any of it’s log
+		inside the box behind the projector, I have to SSH into it in order to access the script and any of its log
 		files. I thought it might be fun to be able to check the logs a little more easily than remoting in. I’ve been a
-		pretty big Notion fan for a while, so this seemed like a cool opportunity to try out
+		pretty big Notion fan for a while, so this seemed like a fun opportunity to try out
 		<a href="https://developers.notion.com/" target="_blank">Notion API</a>, which allowed me to create and update
 		Notion pages from the Raspberry Pi. With this, I have the Pi create a new entry in my Home Automation database 
 		every time the Pi starts up, effectively creating a remote log file. Any time the script would log an event to 
@@ -73,8 +75,7 @@
 		longer than that, I know there might be some issue that I need to look into.
 		<br>
 		<br>
-		<img src="../images/projectorboxblog/projector_alert.png" width="50%" class="postImage">
-		[Picture of Notion logging]
+		<img src="../images/projectorboxblog/notion_log.png" width="65%" class="postImage">
 		<br>
 		<br>
 		All in all it’s an overly-complicated solution to a simple problem, but I had a lot of fun doing it. Working

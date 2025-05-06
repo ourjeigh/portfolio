@@ -9,36 +9,30 @@
 	<hr>
 	<div class="contentTitle" id="MaggiLizer">
 		MaggiLizer Wwise Plugin
-		<div class="contentDate"> 2020 </div>
 	</div>
 	<div class="contentDescriptionJustify">
-		I've wanted to make a Wwise Plugin for a long time, and after watching the recent 
-		<a href="https://www.twitch.tv/videos/758625080" target="_blank"><u>Wwise Up On Air </u></a>
-		 discussing how to
-		get started with development, I decided now was a good time to give it a shot. The folks at AudioKinetic have
-		done a lot of streamlining to the setup process that had previously made Wwise Plugin creation a bit too
-		daunting of a task. I highly recommend giving the video a watch.
+		<iframe src="https://player.vimeo.com/video/1081858282" width=100% height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<br /><br />
+		This has been an on and off project for me to practice some DSP fundamentals, which I started after watching the 
+		<a href="https://www.twitch.tv/videos/758625080" target="_blank"><u>Wwise Up On Air</u></a>
+		 discussing how to get started with Wwise Plugin development.
 		<br /><br />
 		<a href="https://github.com/rjmattingly/MaggiLizer" target="_blank">
 			<link rel="stylesheet" type="text/css" href="../style.css">
 			<img src="../images/maggilizerblog/maggilizer_logo.png" width="100%" />
 		</a>
 		<br /><br />
-		I thought a fun place to start might be mimicking one of my long-time favorite plugins, <a
-			href="https://www.soundtoys.com/product/crystallizer" target="_blank"> <u>SoundToys Crystallizer</u></a>.
-		Since all of its manipulations deal with time and not frequency, it's hopefully a bit easier than diving right
-		into FFTs and the like. I'm choosing to implement a smaller subset of features for what I'd consider the core
-		functionality that I really love about Crystallizer, so a lot of the "Tweak" knobs will be omitted (for now).
+		MaggiLizer is an homage to one of my favorite VST plugins, <a
+		href="https://www.soundtoys.com/product/crystallizer" target="_blank"> <u>SoundToys Crystallizer</u></a>.
+		
 		<br /><br />
 		<a href="https://github.com/rjmattingly/MaggiLizer" target="_blank">
-			<img src="../images/maggilizerblog/maggilizer_screenshot.png" width="100%" />
+			<img src="../images/maggilizerblog/maggilizer_screenshot.png" width="60%" class="postImage"/>
 		</a>
 		<br /><br />
-		The plugin is still a work in progress up on <a href="https://github.com/rjmattingly/MaggiLizer"
-			target="_blank"><u> GitHub</u></a>. You can grab the latest release files <a
-			href="https://github.com/rjmattingly/MaggiLizer/releases/latest" target="_blank"><u> here</u></a>. Both the
-		.dll and .xml files just need to be placed in your Wwise Authoring App's Plugins folder. My focus so far has
-		been on the Authoring App plugin, so it's not yet ready to drop into a game engine.
-		<br /><br />
+		The plugin is a hobby and work in progress up on <a href="https://github.com/rjmattingly/MaggiLizer"
+		target="_blank"><u> GitHub</u></a>. I recently spent some time rewriting a good portion of the plugin
+		to utilize more formal data structures, particularly a ring buffer for output since I wasn't familiar with
+		the technique when I got started years ago.
 	</div>
 </body>

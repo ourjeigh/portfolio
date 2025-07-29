@@ -41,15 +41,25 @@ body {
 	width: 700;
 }
 
+@media (hover: none) and (pointer: coarse) {
+	a {
+		color: rgb(156, 117, 123);
+		text-decoration: underline dotted;
+	}
+}
+
 a {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: black;
 	text-decoration: none;
+	/* text-decoration: underline dotted; */
+	/* text-underline-offset: 3px; */
+	/* transition: color 0.2s ease; */
 }
 
 a:hover {
-	color: pink
+	color: pink;
 }
 
 hr {
@@ -100,12 +110,11 @@ li {
 .resume_left {
 	width: 210;
 	margin-right: 10;
-  	height: 600px;
+  	height: 630px;
   	float: left;
 }
 
 .resume_right {
-  	height: 500px;
 }
 
 .resumeDescriptionJustify {

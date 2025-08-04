@@ -189,6 +189,14 @@ li {
 	font-weight: 500;
 }
 
+.recentWorkVideo
+{
+	/* margin-left: 20; */
+	/* margin-right: 20; */
+	width: 40%;
+	justify-content: center;
+}
+
 .resumeBulletHeader {
 	font-size: 20;
 	margin-top: 10;

@@ -41,28 +41,6 @@ body {
 	width: 700;
 }
 
-@media screen and (max-width: 768px) {
-	body {
-		width: auto;
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-
-	.header {
-		width: auto;
-	}
-
-	.contentVideo iframe,
-	.recentWorkVideo iframe {
-		width: 100%;
-		max-width: 100%;
-	}
-
-	.contentDescriptionJustify {
-		width: auto;
-	}
-}
-
 a {
 	margin-top: 0;
 	margin-bottom: 0;

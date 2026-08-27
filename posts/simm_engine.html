@@ -1,0 +1,53 @@
+<head>
+	<title>RJ Mattingly</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" href="../images/caricature.png" type="image/png">
+	<meta name="viewport" content="width=device-width">
+</head>
+<iframe src="../header.html" max-width="100%" width="100%" height="100" scrolling="no" style="border:none"></iframe>
+
+<body>
+	<hr>
+	<div class="contentTitle" id="SiMMEngine">
+		SiMM Engine
+	</div>
+	<div class="contentVideo">
+        <iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="394"
+            src="https://www.youtube.com/embed/m1Ju_7Vl2pY?si=_vuBpA50a-x5gZpZ" width="100%"></iframe>
+    </div>
+	<div class="contentDescriptionJustify">
+		<br>
+		I've been building a 2D game engine from the bottom up to better understand its various components. My primary rules for development have been 1) to make everything from scratch (no std or external libraries) and 2) develop with multiplatform support in mind.
+		<br><br>
+		The video above shows the very limited player-facing functionality I've built: basic game flow from logo to menu and individual demo scenes, a few simple one-shot sounds, basic player and camera control, and rudimentary collision detection. Under the hood, there are a lot of custom-built systems in place to support that functionality:
+		<ul>
+			<li>Software Graphics Renderer</li>
+			<li>Audio Renderer</li>
+			<li>File IO</li>
+			<li>Memory Allocation</li>
+			<li>Asset System</li>
+			<li>Bitmap & Text Rendering</li>
+			<li>Data Structures</li>
+			<li>Logging and String Formatting</li>
+			<li>Perf Measurement</li>
+			<li>State Machine</li>
+			<li>Camera</li>
+		</ul>
+	</div>
+
+	<div class="contentVideo">
+        <iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="394"
+            src="https://www.youtube.com/embed/d6A7cH_iDRY?si=RMiURU0TgigEN5ne" width="100%"></iframe>
+    </div>
+	<div class="contentDescriptionJustify">
+		<br>
+		With inspiration from <a href="https://guide.handmadehero.org/code/day021/" target="_blank">Handmade Hero</a>, I've built the game layer of the engine as a dll to allow for hot reloading of the game code while the engine is running. This involves splitting the application into a statically linked engine layer and a dynamically linked game layer. The engine loads the game dll explicitly and points it to the pre-allocated game memory. When a new dll is detected, it unloads the existing dll, loads the new one, and fixes up the memory so that state is preserved. 
+		<br><br>
+		This approach to the game layer means that all game state must be stored in the memory block provided by the engine (no static globals). It also means that game state needs to be comprised of fairly pure data types. Any polymorphic object containing a vtable cannot be stored in the game state, since those vtable pointers will not be preserved accross a dll reload. Generally, I've found these requirements to be good: it forces me to separate functionality from state.
+		<br><br>
+		The video above shows an example of modifying the game code and then live reloading to see the effect. In this case, I change the length and color of the collision normal debug line. An in-game hotkey triggers the reload so that this approach could be used to simulate a scripting workflow.
+		<br><br>
+		The project itself is on <a href="https://github.com/ourjeigh/simm_engine" target="_blank">GitHub</a>.
+	</div>
+</body>
+
